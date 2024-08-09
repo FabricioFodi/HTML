@@ -1,0 +1,121 @@
+<!--
+Desafio: Criando uma Página Web Informativa
+Objetivo: Criar uma página web que apresente uma mini biografia de uma personalidade histórica ou fictícia. A página deve ser estruturada utilizando as tags que você aprendeu, de maneira a organizar bem as informações e torná-las visualmente atraentes.
+
+Descrição do Desafio:
+Você foi contratado para criar uma página web que servirá como parte de um museu virtual. A página deve conter as seguintes seções:
+
+Título Principal (Cabeçalho):
+
+Crie um título para a página usando a tag de cabeçalho mais apropriada (<h1>).
+O título deve conter o nome da personalidade escolhida.
+Imagem da Personalidade:
+
+Adicione uma imagem representativa da personalidade, utilizando a tag adequada (<img>).
+A imagem deve ter uma legenda breve que descreva a imagem.
+Biografia Resumida:
+
+Crie dois parágrafos (<p>) que resumam a vida da personalidade.
+Inclua informações como datas importantes, feitos notáveis e qualquer outra informação relevante.
+Tabela de Eventos Importantes:
+
+Adicione uma tabela (<table>) que organize pelo menos três eventos importantes da vida da personalidade.
+A tabela deve ter um cabeçalho (<th>) para as colunas e linhas para os eventos.
+As colunas podem incluir "Ano", "Evento", e "Descrição".
+Lista de Conquistas ou Citações:
+
+Crie uma lista não ordenada (<ul>) com pelo menos três conquistas ou citações famosas dessa personalidade.
+Cada item da lista deve ser descrito em uma linha.
+Referências e Fontes:
+
+Adicione uma lista ordenada (<ol>) com links ou referências às fontes de onde você retirou as informações sobre a personalidade.
+Critérios de Avaliação:
+Estrutura do Código: O código HTML deve ser bem organizado e indentado corretamente.
+Uso Correto das Tags: Verifique se as tags apropriadas foram utilizadas em cada parte da página.
+Apresentação Visual: A página deve ser visualmente clara, com as informações bem organizadas.
+Conteúdo: O conteúdo deve ser relevante e deve seguir a estrutura solicitada.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biografia de Marie Curie</title>
+    <style>
+        body {
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 450px;
+            margin-right: 450px;
+            margin-top: 0;
+            margin-bottom: 0;
+            
+        }
+        
+        figure {
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1>Marie Curie</h1>
+    <figure>
+        <img style="" src="https://th.bing.com/th?id=OSK.HEROIRxG3KVQzph_AtR4YMwa6LaVGBq-z93L_ezaFcl5D58&w=312&h=200&c=15&rs=2&o=6&pid=SANGAM" alt="Foto de Marie Curie" />
+        <figcaption>Retrato de Marie Curie, a pioneira na descoberta da radioatividade.</figcaption>
+    </figure>
+
+    <p>Marie Curie foi uma cientista pioneira nas áreas de física e química. Ela é mais conhecida por suas descobertas no campo da radioatividade e por ter sido a primeira mulher a ganhar um Prêmio Nobel.</p>
+    <p>Marie Curie enfrentou muitos desafios durante sua carreira, incluindo a discriminação de gênero e as dificuldades financeiras, mas seu trabalho deixou um legado duradouro na ciência. Durante a Primeira Guerra Mundial, ela promoveu o uso de unidades móveis de raio-X para tratamento de soldados feridos. Marie Curie morreu em 4 de julho de 1934, devido a uma anemia aplástica, provavelmente causada pela exposição prolongada à radiação. Seu legado vive não apenas em suas descobertas científicas, mas também em sua contribuição ao empoderamento das mulheres na ciência.</p>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Ano</th>
+                <th>Evento</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1898</td>
+                <td>Descoberta do Polônio e Rádio</td>
+                <td>Marie Curie e seu marido Pierre descobriram os elementos polônio e rádio, contribuindo significativamente para o campo da radioatividade.</td>
+            </tr>
+            <tr>
+                <td>1903</td>
+                <td>Prêmio Nobel de Física</td>
+                <td>Marie Curie se torna a primeira mulher a ganhar um Prêmio Nobel, compartilhando o prêmio de Física com Pierre Curie e Henri Becquerel.</td>
+            </tr>
+            <tr>
+                <td>1911</td>
+                <td>Prêmio Nobel de Química</td>
+                <td>Marie Curie recebe seu segundo Prêmio Nobel, desta vez em Química, pela descoberta do rádio e do polônio.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Conquistas</h2>
+    <ul>
+        <li>Primeira mulher a ganhar um Prêmio Nobel.</li>
+        <li>Única pessoa a ganhar o Prêmio Nobel em duas áreas científicas diferentes (Física e Química).</li>
+        <li>Pioneira no desenvolvimento da radioterapia para tratamento do câncer.</li>
+    </ul>
+
+    <h2>Referências</h2>
+    <ol>
+        <li><a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/" target="_blank">Biografia de Marie Curie - Prêmio Nobel</a></li>
+        <li><a href="https://www.britannica.com/biography/Marie-Curie" target="_blank">Encyclopedia Britannica - Marie Curie</a></li>
+        <li><a href="https://www.history.com/topics/inventions/marie-curie" target="_blank">História - Marie Curie</a></li>
+    </ol>
+</body>
+</html>
