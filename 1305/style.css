@@ -1,0 +1,153 @@
+body {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-pagina {
+    margin-right: 10%
+}
+
+.cabecalho {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    padding: 10px 15px 10px 10px; 
+      
+}
+.cabecalho a{
+    padding: 10px;
+}
+
+.titulo {
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(29, 28, 28, 0.411);
+}
+
+.Subtitulo{
+    text-align: right;
+    margin-right: 3.5%;
+}
+
+.containers{
+    display: flex;
+    width: 50%;
+    height: 40%;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    flex-direction: row;
+    margin-left: 22%;
+}
+
+.container-centro {
+    margin: 20px;
+    border-right: 2px solid black;
+}
+.container-centro h2 {
+    text-align: center;
+}
+
+.container-direita {
+    margin: 20px;
+}
+.container-direita h2 {
+    text-align: right;
+}
+.container-centro p {
+    text-align: center;
+}
+
+.container-direita p {
+    text-align: end;
+}
+
+.paragrafos {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.parag {
+    margin-right: 16px;
+}
+
+.listas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.listas li {
+    padding: 10px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imagem1 {
+    width: 50vw;
+    height: auto;
+    box-shadow: 10px 10px 15px #05050550;
+    
+}
+
+
+.imagem2 {
+    width: 50vw;
+    height: auto;
+}
+
+
+.imagem3 {
+    width: 50vw;
+    height: auto;
+    box-shadow: 10px 10px 15px #05050550;
+}
+
+
+.imagem4 {
+    width: 50vw;
+    height: auto;
+}
+
+.links {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.links a{
+    text-decoration: none;  
+}
+
+.rodape {
+    position: relative;
+    text-align: center;
+    border-top: 1px dashed green;
+   
+}
+
+.container-lateral {
+    display: flex;
+    position: fixed; /* Fixa o container na tela */
+    top: 0;
+    right: 0;
+    width: 10%; /* Largura do container lateral */
+    height: 100vh; /* Altura total da viewport */
+    color: #050505; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.container-lateral {
+    align-items: center;   
+}
