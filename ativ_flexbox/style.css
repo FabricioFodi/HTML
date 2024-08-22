@@ -13,6 +13,7 @@ html, body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    position: relative;
 }
 
 .cabecalho {
@@ -50,4 +51,20 @@ html, body {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+
+.botao-um, .botao-dois {
+    position: absolute;
+    right: 20px; 
+    padding: 10px 15px;
+
+}
+
+.botao-um {
+    top: 10px;
+}
+
+.botao-dois {
+    bottom: 10px;
 }
